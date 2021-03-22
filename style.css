@@ -58,3 +58,14 @@ h1 {
   padding-top: 15px;
   
 }
+.zacithrat:hover,
+.zacithrat:focus,
+.zacithrat:active {
+  background-color: #0090e0;
+}
+
+.pravidla:hover,
+.pravidla:focus,
+.pravidla:active {
+  background-color: #1cbb96;
+}
