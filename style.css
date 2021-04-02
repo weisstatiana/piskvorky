@@ -32,18 +32,13 @@ h1 {
   font-family: Lobster;
   margin-top: 10%;
 }
-/*.buttons {
-  //* toto si nevšímaj, chujovina
-  position: absolute;
-  display: block;
-  left: calc(50% - 400px / 2);
-  bottom: 20%;*/
 
 .pravidla {
   width: 400px;
   background-color: #1fcca4;
   padding-bottom: 15px;
   padding-top: 15px;
+  height: 15px;
 }
 .zacithrat {
   width: 400px;
