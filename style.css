@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: rgb(97, 93, 173);
   background: linear-gradient(
@@ -32,18 +38,20 @@ h1 {
   margin-top: 10%;
 }
 
-.pravidla {
-  width: 400px;
+.pravidla,
+.uvodnistranka {
+  max-width: 400px;
   background-color: #1fcca4;
   padding-bottom: 15px;
   padding-top: 15px;
-  height: 15px;
+  text-decoration: none;
 }
 .zacithrat {
-  width: 400px;
+  max-width: 400px;
   background-color: #0197f6;
   padding-bottom: 15px;
   padding-top: 15px;
+  text-decoration: none;
 }
 .zacithrat:hover,
 .zacithrat:focus,
@@ -55,4 +63,63 @@ h1 {
 .pravidla:focus,
 .pravidla:active {
   background-color: #1cbb96;
+}
+.uvodnistranka:hover,
+.uvodnistranka:focus,
+.uvodnistranka:active {
+  background-color: #1cbb96;
+}
+
+.container {
+  background-color: #283e50;
+
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  padding: 10%;
+  margin-right: 5%;
+}
+.galerie {
+  text-align: center;
+}
+.container ol {
+  text-align: left;
+  line-height: 1.5rem;
+}
+.galerie img {
+  width: 380px;
+  max-width: 100%;
+}
+@media (min-width: 320px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pravidla,
+  .uvodnistranka {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .galerie {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
