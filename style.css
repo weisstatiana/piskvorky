@@ -18,7 +18,6 @@ body {
   position: absolute;
   left: calc(50% - 400px / 2);
   margin-top: 10%;
-  
 }
 
 p {
@@ -26,37 +25,31 @@ p {
   line-height: 2;
   padding-bottom: 10%;
   margin-top: 0;
-  
 }
 h1 {
   margin-bottom: 0px;
   font-size: 45px;
   font-family: Lobster;
   margin-top: 10%;
-  
 }
-.buttons {
+/*.buttons {
   //* toto si nevšímaj, chujovina
   position: absolute;
   display: block;
   left: calc(50% - 400px / 2);
-  bottom: 20%;*// 
-  
-}
+  bottom: 20%;*/
+
 .pravidla {
   width: 400px;
   background-color: #1fcca4;
   padding-bottom: 15px;
   padding-top: 15px;
-  
-  
 }
 .zacithrat {
   width: 400px;
   background-color: #0197f6;
   padding-bottom: 15px;
   padding-top: 15px;
-  
 }
 .zacithrat:hover,
 .zacithrat:focus,
